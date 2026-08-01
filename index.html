@@ -1,23 +1,44 @@
 <!DOCTYPE HTML>
-<html>
+<!--
+	Base: Hyperspace by HTML5 UP (html5up.net | @ajlkn) — CCA 3.0
+	Adaptado para el portfolio de Valerie Bernales
+-->
+<html lang="es">
 	<head>
-		<title>Valerie Bernales | Portfolio</title>
+		<title>Valerie Bernales | Data Analyst Portfolio</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="preconnect" href="https://fonts.googleapis.com">
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
 		<link rel="stylesheet" href="assets/css/main.css" />
 		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
 	</head>
 	<body class="is-preload">
 
-		<!-- Sidebar -->
+		<!-- Top nav (visible only over the hero, desktop) -->
+			<header id="topnav">
+				<div class="inner">
+					<a href="#intro" class="logo scrolly">Valerie</a>
+					<nav>
+						<a href="#intro" class="scrolly active">Home</a>
+						<a href="#projects" class="scrolly">Projects</a>
+						<a href="#skills" class="scrolly">Skills</a>
+						<a href="#Certificates" class="scrolly">Certificates</a>
+						<a href="#contact" class="scrolly">Contact</a>
+					</nav>
+				</div>
+			</header>
+
+		<!-- Sidebar (fades in once you scroll past the hero) -->
 			<section id="sidebar">
 				<div class="inner">
 					<nav>
 						<ul>
-							<li><a href="#intro">About me</a></li>
-							<li><a href="#one">Projects</a></li>
-							<li><a href="#two">Skills</a></li>
-							<li><a href="#three">Contact</a></li>
+							<li><a href="#intro">Home</a></li>
+							<li><a href="#projects">Projects</a></li>
+							<li><a href="#skills">Skills</a></li>
+							<li><a href="#Certificates">Certificates</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</nav>
 				</div>
@@ -27,183 +48,285 @@
 			<div id="wrapper">
 
 				<!-- Intro -->
-					<section id="intro" class="wrapper style1 fullscreen fade-up">
+					<section id="intro" class="wrapper style1 fullscreen fade-up split-hero">
 						<div class="inner">
-							<h1 style="text-align: center;font-weight: 100;">Valerie Bernales Ramos</h1>
-
-							<h1 style="text-align: center; font-weight: 900;">DATA ANALYST PORTFOLIO</h1>
-
-							<p style="text-align: center;">
-								Junior Data Analyst with experience in SQL, Python and Power BI.
-							</p>
-						</div>
-					</section>
-
-				<!-- One -->
-					<section id="one" class="wrapper style2 spotlights">
-						<section>
-							<a href="#" class="image"><img src="images/pic01.jpg" alt="" data-position="center center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Project 1</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
+							<div class="hero-image">
+								<div class="profile-pic">
+									<img src="images/profile.jpg" alt="Valerie Bernales" />
 								</div>
 							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic02.jpg" alt="" data-position="top center" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Project 2</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-						<section>
-							<a href="#" class="image"><img src="images/pic03.jpg" alt="" data-position="25% 25%" /></a>
-							<div class="content">
-								<div class="inner">
-									<h2>Project 3</h2>
-									<p>Phasellus convallis elit id ullamcorper pulvinar. Duis aliquam turpis mauris, eu ultricies erat malesuada quis. Aliquam dapibus.</p>
-									<ul class="actions">
-										<li><a href="generic.html" class="button">Learn more</a></li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</section>
-
-				<!-- Two -->
-					<section id="two" class="wrapper style3 fade-up">
-						<div class="inner">
-							<h2>Technical Skills</h2>
-							<p>Focused on data analytics and business intelligence, with knowledge of SQL Server, Power BI, Python, SSIS, and SSAS. Interested in transforming raw data into meaningful insights that support strategic decision-making.</p>
-						<div class="features">
-
-							<section>
-								<span class="icon solid major fa-database"></span>
-								<h3>SQL & Databases</h3>
-								<p>Experience working with SQL Server, PostgreSQL, MySQL, and Microsoft Access for data querying, management, and analysis.</p>
-							</section>
-
-							<section>
-								<span class="icon solid major fa-chart-bar"></span>
-								<h3>Power BI & Visualization</h3>
-								<p>Building interactive dashboards and reports using Power BI, Power Query, and Power Pivot to support business decisions.</p>
-							</section>
-
-							<section>
-								<span class="icon solid major fa-code"></span>
-								<h3>Python for Data Analysis</h3>
-								<p>Using Python for data cleaning, transformation, exploratory analysis, and generating insights from structured datasets.</p>
-							</section>
-
-							<section>
-								<span class="icon solid major fa-cogs"></span>
-								<h3>ETL & Data Integration</h3>
-								<p>Knowledge of ETL processes, SSIS, and data transformation techniques to prepare reliable datasets for analytics.</p>
-							</section>
-
-							<section>
-								<span class="icon solid major fa-project-diagram"></span>
-								<h3>Data Modeling</h3>
-								<p>Understanding of dimensional modeling and SSAS for designing efficient analytical structures and business intelligence solutions.</p>
-							</section>
-
-							<section>
-								<span class="icon solid major fa-cloud"></span>
-								<h3>Big Data & Cloud</h3>
-								<p>Familiar with Big Data concepts and Google Cloud fundamentals, continuously learning modern data technologies.</p>
-							</section>
-					</section>
-
-				<!-- Three -->
-				<section id="three" class="wrapper style1 fade-up">
-					<div class="inner">
-						<h2>About This Portfolio</h2>
-
-						<div class="split style1">
-
-							<!-- Columna izquierda -->
-							<section>
-								<p>
-									This portfolio reflects my journey as an aspiring Data Analyst, showcasing the knowledge, technical skills,
-									and projects that have shaped my growth in the field of data analytics and business intelligence.
-									Through hands-on experience with SQL Server, Power BI, Python, SSIS, SSAS, and ETL processes,
-									I continue developing solutions that transform data into valuable insights for decision-making.
-
-									The projects presented demonstrate my ability to apply analytical thinking, data management, and
-									problem-solving skills to real-world scenarios. As I continue learning and expanding my expertise,
-									I remain committed to leveraging data to create meaningful impact and support data-driven strategies.
-
-									Thank you for taking the time to explore my portfolio. Feel free to connect with me through the contact
-									information and social links provided.
-								</p>
-							</section>
-
-							<!-- Columna derecha -->
-							<section>
-								<ul class="contact">
-
-									<li>
-										<h3>Address</h3>
-										<span>Lima, Perú</span>
-									</li>
-
-									<li>
-										<h3>Phone</h3>
-										<span>+51 912754254</span>
-									</li>
-
-									<li>
-										<h3>Email</h3>
-										<span>
-											valeriekarlabernales@gmail.com
-										</span>
-									</li>
-
-									<li>
-										<h3>Social</h3>
-										<ul class="icons">
-											<li>
-												<a href="https://github.com/ValerieBernales"
-												target="_blank"
-												class="icon brands fa-github">
-													<span class="label">GitHub</span>
-												</a>
-											</li>
-
-											<li>
-												<a href="https://www.linkedin.com/in/valeriebernales/"
-												target="_blank"
-												class="icon brands fa-linkedin-in">
-													<span class="label">LinkedIn</span>
-												</a>
-											</li>
-										</ul>
-									</li>
-
+							<div class="hero-content">
+								<h1>Hi, it's <span style="color:#b74b4b;">Valerie Bernales</span></h1>
+								<h3 class="typing-text">I'm a <span></span></h3>
+								<p>This portfolio showcases my journey as a Data Analyst, with a focus on data analytics and business intelligence. Using SQL Server, Power BI, Python, SSIS, SSAS, and ETL processes, I transform data into meaningful insights that support informed decision-making.</p>
+								<ul class="icons">
+									<li><a href="https://www.linkedin.com/in/valeriebernales/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+									<li><a href="https://github.com/ValerieBernales" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+									<li><a href="https://www.instagram.com/karlaverie/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
 								</ul>
-							</section>
-
+								<ul class="actions">
+									<li><a href="#contact" class="button scrolly">Contact Me</a></li>
+								</ul>
+							</div>
 						</div>
-					</div>
-				</section>
+					</section>
 
-				<!-- Footer -->
-				<footer id="footer" class="wrapper style1-alt">
-					<div class="inner">
-						<ul class="menu">
-							<h3>&copy; 2026 Valerie Bernales | Data Analyst Portfolio</h3>
-						</ul>
-					</div>
-				</footer>
+				<!-- projects -->
+					<section id="projects" class="wrapper style2 spotlights">
+						<section>
+							<div class="content">
+								<div class="inner">
+									<h2>Projects</h2>
+									<p>Exploro, limpio y modelo datos para encontrar patrones y responder preguntas de negocio con SQL, Python y estadística aplicada.</p>
+
+									<div class="mp-frame" id="mpFrame">
+										<div class="mp-icons">
+											<div class="mp-icon" data-file="about">
+												<div class="mp-icon-box"><img src="images/carpeta.png" alt="About"></div>
+												<span>About Me</span>
+											</div>
+											<div class="mp-icon" data-file="resume">
+												<div class="mp-icon-box"><img src="images/carpeta.png" alt="About"></div>
+												<span>Resume.pdf</span>
+											</div>
+											<div class="mp-icon mp-active" data-file="projects">
+												<div class="mp-icon-box"><img src="images/carpeta.png" alt="About"></div>
+												<span>Projects</span>
+											</div>
+											<div class="mp-icon" data-file="skills">
+												<div class="mp-icon-box"><img src="images/carpeta.png" alt="About"></div>
+												<span>Skills.exe</span>
+											</div>
+											<div class="mp-icon" data-file="contact">
+												<div class="mp-icon-box"><img src="images/carpeta.png" alt="About"></div>
+												<span>Contact</span>
+											</div>
+											<div class="mp-icon" data-file="social">
+												<div class="mp-icon-box"><img src="images/carpeta.png" alt="About"></div>
+												<span>Social</span>
+											</div>
+										</div>
+
+										<div class="mp-window" id="mpWindow">
+											<div class="mp-window-header">
+												<span id="mpWinTitle">Projects</span>
+												<div class="mp-window-controls">
+													<div class="mp-minimize" id="mpMinimize">−</div>
+													<div class="mp-maximize" id="mpMaximize">□</div>
+													<div class="mp-close" id="mpClose">×</div>
+												</div>
+											</div>
+											<div class="mp-window-body" id="mpWinBody"></div>
+										</div>
+									</div>
+
+								</div>
+							</div>
+						</section>
+					</section>
+
+				<!-- Skills -->
+					<section id="skills" class="wrapper style3 fade-up">
+						<div class="inner">
+							<h2>Skills</h2>
+							<div class="features">
+
+								<section>
+									<span class="icon solid major fa-chart-bar"></span>
+									<h3>Power BI</h3>
+									<p>Interactive dashboards, DAX, Power Query and data visualization for business insights.</p>
+								</section>
+
+								<section>
+									<span class="icon solid major fa-database"></span>
+									<h3>SQL</h3>
+									<p>SQL Server, PostgreSQL and MySQL. Database design, queries and optimization.</p>
+								</section>
+
+								<section>
+									<span class="icon solid major fa-code"></span>
+									<h3>Python</h3>
+									<p>Data cleaning, analysis and visualization using Pandas, NumPy, Matplotlib and Seaborn.</p>
+								</section>
+
+								<section>
+									<span class="icon solid major fa-cogs"></span>
+									<h3>ETL & Data Warehouse</h3>
+									<p>SSIS, SSAS, dimensional modeling and ETL process development.</p>
+								</section>
+
+								<section>
+									<span class="icon solid major fa-file-excel"></span>
+									<h3>Excel</h3>
+									<p>Advanced Excel, Pivot Tables, Power Pivot and data analysis.</p>
+								</section>
+
+								<section>
+									<span class="icon solid major fa-brain"></span>
+									<h3>Business Analytics</h3>
+									<p>Statistical analysis, KPI definition and data-driven decision making.</p>
+								</section>
+
+							</div>
+						</div>
+					</section>
+
+				<!-- Certificates -->
+					<section id="Certificates" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Certificates</h2>
+							<div class="row gtr-200">
+
+								<!-- ===== 2024 ===== -->
+
+								<div class="col-6 col-12-medium">
+									<section class="box">
+										<div class="cert-header">
+											<span class="cert-year">2024</span>
+											<a href="https://certificados.uni.edu.pe/verificador/search.php?cert_id=cert_5bcde4d9d18ca0e701f695c326e3ac89&action=view" target="_blank" class="button small">Ver certificado</a>
+										</div>
+										<h3>Certificación en Base de Datos – CTIC UNI</h3>
+										<div class="cert-tags">
+											<span class="cert-tag">Bases de Datos</span>
+										</div>
+									</section>
+								</div>
+
+								<div class="col-6 col-12-medium">
+									<section class="box">
+										<div class="cert-header">
+											<span class="cert-year">2024</span>
+											<a href="https://certificados.uni.edu.pe/verificador/search.php?cert_id=cert_8086b10cf6da86971f709238cc91328c&action=view" target="_blank" class="button small">Ver certificado</a>
+										</div>
+										<h3>Certificación en Power BI – CTIC UNI</h3>
+										<div class="cert-tags">
+											<span class="cert-tag">Power BI</span>
+										</div>
+									</section>
+								</div>
+
+								<!-- ===== 2025 ===== -->
+
+								<div class="col-6 col-12-medium">
+									<section class="box">
+										<div class="cert-header">
+											<span class="cert-year">2025</span>
+											<a href="https://hotmart.com/es/club/ipsdatax/product/5360147/certificate/7de58ae3-38c2-44d8-a7a2-c9b67501473e-1764243933/validate" target="_blank" class="button small">Ver certificado</a>
+										</div>
+										<h3>Especialización en Análisis de Datos – IPS DATAX</h3>
+										<div class="cert-tags">
+											<span class="cert-tag">Python</span>
+											<span class="cert-tag">MySQL</span>
+											<span class="cert-tag">Excel</span>
+											<span class="cert-tag">Power BI</span>
+										</div>
+									</section>
+								</div>
+
+								<!-- ===== 2026 ===== -->
+
+								<div class="col-6 col-12-medium">
+									<section class="box">
+										<div class="cert-header">
+											<span class="cert-year">2026</span>
+											<a href="https://www.scrumstudy.com/certification/verify?type=SFC&number=1172720" target="_blank" class="button small">Ver certificado</a>
+										</div>
+										<h3>Scrum Fundamentals Certified (SFC)</h3>
+										<div class="cert-tags">
+											<span class="cert-tag">Scrum</span>
+										</div>
+									</section>
+								</div>
+
+								<div class="col-6 col-12-medium">
+									<section class="box">
+										<div class="cert-header">
+											<span class="cert-year">2026</span>
+											<a href="https://plus-api.netzun.com/api/v1/certificate/new-viewer/2A5D04CF/" target="_blank" class="button small">Ver certificado</a>
+										</div>
+										<h3>Especialización en Análisis de Datos – NETZUN</h3>
+										<div class="cert-tags">
+											<span class="cert-tag">Power BI</span>
+											<span class="cert-tag">Big Data Fundamentals</span>
+											<span class="cert-tag">SQL (PostgreSQL)</span>
+											<span class="cert-tag">Business Analytics en Big Data</span>
+											<span class="cert-tag">Microsoft Access</span>
+											<span class="cert-tag">Fundamentos de estadística aplicada a la IA</span>
+											<span class="cert-tag">Introducción a Python para Ciencia de Datos</span>
+											<span class="cert-tag">Programación en R</span>
+											<span class="cert-tag">Introducción a Google Cloud</span>
+										</div>
+									</section>
+								</div>
+
+							</div>
+						</div>
+					</section>
+				<!-- Contact -->
+					<section id="contact" class="wrapper style1 fade-up">
+						<div class="inner">
+							<h2>Contact me</h2>
+							<p>Are you looking for a data analyst or do you have a project related to BI, SQL, or Python? I am available to collaborate and will reply to your message as soon as possible.</p>
+							<div class="split style1">
+								<section>
+									<form method="post" action="https://api.web3forms.com/submit" id="contactForm">
+										<input type="hidden" name="access_key" value="f9c6bdd4-deca-4687-bb03-9c95530da13e" />
+										<div class="fields">
+											<div class="field half">
+												<label for="name">Name</label>
+												<input type="text" name="name" id="name" />
+											</div>
+											<div class="field half">
+												<label for="email">Email</label>
+												<input type="text" name="email" id="email" />
+											</div>
+											<div class="field">
+												<label for="message">Message</label>
+												<textarea name="message" id="message" rows="5"></textarea>
+											</div>
+										</div>
+										<ul class="actions">
+											<li><a href="" class="button submit" id="submitBtn">Send Message</a></li>
+										</ul>
+									</form>
+								</section>
+								<section>
+									<ul class="contact">
+										<li>
+											<h3>Address</h3>
+											<span>Lima, Perú</span>
+										</li>
+										<li>
+											<h3>Social</h3>
+											<ul class="icons">
+												<li><a href="https://github.com/ValerieBernales" target="_blank" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+												<li><a href="https://www.instagram.com/karlaverie/" target="_blank" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+												<li><a href="https://www.linkedin.com/in/valeriebernales/" target="_blank" class="icon brands fa-linkedin-in"><span class="label">LinkedIn</span></a></li>
+											</ul>
+										</li>
+									</ul>
+								</section>
+							</div>
+						</div>
+					</section>
+
+				</div>
+
+		<!-- Footer -->
+			<footer id="footer" class="wrapper style1-alt">
+				<div class="inner">
+					<ul class="menu">
+						<li>&copy; 2026 Valerie Bernales | Data Analyst Portfolio</li>
+					</ul>
+				</div>
+			</footer>
+
+			<!-- Toast notification -->
+				<div class="toast" id="toast">
+					<span class="toast-icon" id="toastIcon">✓</span>
+					<span id="toastMessage">Mensaje enviado</span>
+				</div>
+
 		<!-- Scripts -->
 			<script src="assets/js/jquery.min.js"></script>
 			<script src="assets/js/jquery.scrollex.min.js"></script>
@@ -212,6 +335,25 @@
 			<script src="assets/js/breakpoints.min.js"></script>
 			<script src="assets/js/util.js"></script>
 			<script src="assets/js/main.js"></script>
+			<script>
+				(function() {
+					var $body = document.body;
+					var intro = document.getElementById('intro');
+
+					function onScroll() {
+						var threshold = intro.offsetHeight - 150;
+						if (window.pageYOffset > threshold) {
+							$body.classList.add('scrolled');
+						} else {
+							$body.classList.remove('scrolled');
+						}
+					}
+
+					window.addEventListener('scroll', onScroll);
+					window.addEventListener('resize', onScroll);
+					onScroll();
+				})();
+			</script>
 
 	</body>
 </html>
