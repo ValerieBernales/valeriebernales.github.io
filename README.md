@@ -8,7 +8,7 @@ Bienvenida a mi portafolio personal desarrollado con HTML, CSS y JavaScript.
 ---
 
 ## Sobre mí
-Soy estudiante de Ingeniería de Sistemas (7mo ciclo) en la Universidad Nacional del Callao,
+Soy estudiante de Ingeniería de Sistemas (8vo ciclo) en la Universidad Nacional del Callao,
 apasionada por el análisis de datos, la inteligencia de negocios y la toma de decisiones
 basada en datos.
 
